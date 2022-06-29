@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body{
+    background-color: black;
+}
+/* background: linear-gradient(to right, #000099 0%, #ff0066 100%);border:0px solid white; */
+.nav-link{
+    color:white;
+    font-family:"Poppins",sans-serif;
+}
+/* #ee683c */
+/* #fbb426 */
+.nav-link:hover{
+    color:#ee683c;
+            transition: 0.7s;
+}
+nav{
+    background-color: #1d2430;
+}
+.navbar-brand{
+    color:white;
+}
+.logo{
+    height:70px;
+    width:100%;
+}
+.nav-link{
+    margin-right:30px;
+    transition:0.7s;
+}
+.register-btn{
+    background: linear-gradient(to right, #ee683c 0%, #fbb426 100%);
+    -webkit-box-shadow:0px 100px 64px rgba(238, 104, 60,.54);box-shadow:0 10px 32px rgba(238, 104, 60,.54);background-color:#ee683c;-webkit-transition:background-color .4s,-webkit-box-shadow .4s;transition:background-color .4s,-webkit-box-shadow .4s;-o-transition:background-color .4s,box-shadow .4s;transition:background-color .4s,box-shadow .4s;transition:background-color .4s,box-shadow .4s,-webkit-box-shadow .4s;
+    border:0px solid white;
+    color:white;
+}
+.register-btn:hover{
+    color:white;
+    background: linear-gradient(to right, #fbb426 0%, #ee683c 100%);
+}
+#banner{
+    background-image: url('./Images/why-icon-bg.png');
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.banner-h1{
+    color:white;
+            font-family:"Poppins",sans-serif;
+            font-size:45px;
+}
+.banner-row{
+    margin-top:150px;
+}
+.banner-p{
+    background: linear-gradient(to right,#ee683c,#fbb426,#ee683c
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    font-weight:400;
+    font-size:20px;
+    font-weight:600;
+    font-family:"Poppins",sans-serif;
+}
+.banner-p-2{
+    color:white;
+    font-size:18px;
+    font-family:"Poppins",sans-serif;
+    font-weight:300;
+    margin-top:20px;
+}
+.mybtn{
+    margin-top:30px;
+    font-size:16px;
+    padding:15px 40px;
+    border-radius:45px;
+}
+.mygif{
+    height:100%;
+    width:100%;
+    position: relative;
+    bottom:80px;
+}
+.loader_bg{
+    position:fixed;
+    z-index:999999;
+    background: #1d2430 url(./Images/mygif.gif) center no-repeat;
+    background-size:40%;
+    width:100%;
+    height:100%;
+  }
+
+/* why  */
+
+#why{
+    background-image: url('./Images/download-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    padding-top:150px;
+    padding-bottom:200px;
+}
+.why-h1{
+    text-align:center;
+    font-size:100px;
+    background: linear-gradient(to right,#ee683c,#fbb426
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family:"Poppins",sans-serif;
+    font-weight:600;
+    opacity: 0.2;
+}
+.why-h3{
+    background: linear-gradient(to right,#ee683c,#fbb426,#ee683c
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family:"Poppins",sans-serif;
+    text-align: center;
+    position:relative;
+    bottom:90px;
+    font-size:40px;
+    font-weight:600;
+}
+.why-row{
+    margin-top:50px;
+}
+.icon-h3{
+    background: linear-gradient(to right,#ee683c,#fbb426,#ee683c
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family:"Poppins",sans-serif;
+    margin-top:20px;
+}
+.myicon{
+    height:150px;
+    width:150px;
+}
+.affiliate-icon{
+    height:150px;
+    width:180px;
+}
+.icon-p{
+    color:white;
+    font-size:16px;
+    font-family:"Poppins",sans-serif;
+    font-weight:400;
+    margin-top:30px;
+}
+.row-2{
+    margin-top:50px;
+}
+
+#safety{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.safety-h1{
+    color:white;
+    font-family:"Poppins",sans-serif;
+    font-weight:600;
+    font-size:50px;
+}
+.safety-p{
+    color:white;
+    margin-top:30px;
+    font-family:"Poppins",sans-serif;
+    font-weight:400;
+}
+.close-h1{
+    font-size:60px;
+    color:white;
+}
+.close-h1 .banner-p{
+    font-size:60px;
+}
+.closer-p{
+    font-size:16px;
+    color:white;
+    font-family:"Poppins",sans-serif;
+    margin-top:30px;
+}
+.mybox{
+    padding:20px 30px;
+    margin-top:30px;
+    background:linear-gradient(to right bottom,#ee683c,#fbb426);
+    border-radius: 10px;
+}
+.mybox-title{
+    color:white;
+    font-size:18px;
+    font-weight:600;
+    font-family:"Poppins",sans-serif;
+}
+.mybox-p{
+    font-size:14px;
+    margin-top:20px;
+    margin-bottom:20px;
+    color:white;
+}
+.sell{
+    border:1px solid white;
+    color:white;
+    font-family:"poppins",sans-serif;
+    font-size:16px;
+    padding:10px 30px;
+    background: none;
+    border-radius:45px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.sell:hover{
+    background-color:white;
+    color:black;
+    transition:0.7s;
+}
+.shop-png{
+    height:500px;
+    width:400px;
+}
+.shop-gif{
+    height:450px;
+    width:100%;
+    position: relative;
+    bottom:80px;
+}
+
+/* trading  */
+#trading{
+    background-image: url('./Images/faq-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    margin-top:100px;
+}
+.banner-p{
+    color:white;
+    font-size:18px;
+    font-weight:500;
+}
+
+.trading-h1{
+    font-size:50px;
+}
+.trading-row{
+    padding:50px 0px;
+}
+.trading-p{
+    color:white;
+    font-weight:600;
+}
+
+.trade-btn{
+    background:none;
+    border:1px solid white;
+    color:white;
+    margin-left:20px;
+    box-shadow: none;
+}
+.trade-btn:hover{
+    background:white;
+    transition:0.7s;
+    color:black;
+}
+
+#invest {
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+/* contact  */
+#contact{
+    margin-top:100px;
+    margin-bottom:50px;
+}
+.icon-img{
+    height:30px;
+    width:30px;
+}
+.contact-img{
+    height:40px;
+    width:30px;
+}
+.contact-row{
+    margin-top:30px;
+}
+.contact-p{
+    color:white;
+    font-weight:300;
+    font-size:14px;position: relative;top:5px;
+    font-family: "Poppins",sans-serif;
+}
+.contact-p:hover{
+    color:#ee683c;
+    text-decoration: none;
+    transition:0.7s;
+}
+.social-links{
+    margin-top:30px;
+}
+.social-img{
+    height:40px;
+    width:40px;
+    margin-right:20px;
+}
+.social-img:hover{
+    color:#ee683c;
+}
+/* footer  */
+
+#footer{
+    background: #464646;
+    padding:50px 0px;
+}
+.footer-h4{
+    color:white;
+    font-weight:600px;
+    font-size:20px;
+    font-family:"Poppins",sans-serif;
+}
+.footer-ul{
+    list-style-type: none;
+    position:relative;
+    right:40px;
+    margin-top:20px;
+}
+.footer-ul li{
+    color:white;
+    margin-top:10px;
+    font-size:14px;
+}
+.footer-ul li:hover a{
+    color:#ee683c;
+    transition:0.4s;
+    text-decoration:none;
+}
+.mobile-row{
+    display:none;
+}
+.footer-h4{
+    color:#ee683c;
+}
+
+/* cards  */
+#cards{
+    background-color: #464646;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.card-img{
+  height:80%;
+  width:100%;
+}
+.card-row{
+    position:relative;
+    left:8%;
+}
+
+#price{
+    margin-top:100px;
+}
+.trade-btn-2{
+    margin-top:0px;
+    padding:5px 30px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.mine{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+}
+
+
+
+/* earn page  */
+.earn-h1{
+    color:#ee683c;
+    font-size:40px;
+    font-family:"Poppins",sans-serif;
+    font-weight:600;
+    text-align: center;
+    background: linear-gradient(to right,#ee683c,#ee683c,#fbb426,#ee683c
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+}
+#earn-content{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.myhr{
+    border:2px solid #ee683c;
+    width:30%;
+}
+.earn-p{
+    color:white;
+    font-size:16px;
+    margin-top:40px;
+}
+.yt-p{
+    color:white;
+    margin-top:10px;
+}
+.earn-ul{
+    color:white;
+    position:relative;
+    right:30px;
+}
+.orange{
+    color:#ee683c;
+}
+.myp1{
+    font-size:16px;
+}
+
+.partner{
+    margin-top:50px;
+}
+.partner-p{
+    color:white;
+    font-size:16px;
+    font-family:"Poppins",sans-serif;
+    margin-top:10px;
+}
+.future{
+    text-align: center;
+    margin-top:40px;
+}
+
+.blockchain{
+    margin-top:50px;
+    margin-bottom:50px;
+    background:linear-gradient(to bottom right,#ee683c, #fbb426);
+    padding:10px 20px;
+    border-radius: 10px;
+}
+.blockchain-h1{
+    color:white;
+    font-size:25px;
+    font-weight:600;
+}
+.blockchain-p{
+    color:white;
+    font-size:14px;
+    font-weight:550;
+}
+.quote-h1{
+    color:white;
+    font-size:24px;
+    font-weight:600;
+}
+
+/* fees page  */
+.first-table{
+    margin-top:50px;
+}
+.second-table{
+    margin-top:50px;
+}
+
+/* contact us  */
+.contact-left-h1{
+    font-size:40px;
+    font-weight:600;
+    font-family:"Exo 2", sans-serif;
+}
+#contact-form{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.contact-left-p{
+    font-size:16px;
+    color:white;
+}
+.contact-label{
+    font-size:17px;
+    margin-top:20px;
+}
+.contact-input{
+    padding:15px 15px;
+}
+.contact-form{
+    margin-top:20px;
+}
+.contact-textarea{
+    height:130px;
+}
+.contact-submit-btn{
+    background:linear-gradient(to right, #ee683c, #fbb426);
+    color:white;
+    margin-top:20px;
+    padding:15px 0px;
+    font-size:20px;
+}
+.contact-submit-btn:hover{
+    background-color:black;
+    color:white;
+    transition: 0.7s;
+}
+.contact-right{
+    text-align:center;
+    margin-left:auto;
+    margin-right: auto;
+}
+.contact-right img{
+    height:100%;
+    width:100%;
+    margin-left:auto;
+    margin-right: auto;
+    text-align:center;
+    margin-left:100px;
+    margin-top:30px;
+}
+.contact-right-top{
+    display:none;
+}
+label{
+    font-size:16px;
+    color:white;
+}
+.contact-img{
+    height:100%;
+    width:100%;
+}
+.taxi-owner{
+    font-size:24px;
+}
+@media (max-width:500px){
+    .desktop-row{
+        display: none;
+    }
+    .mobile-row{
+        display:inline-block
+    }
+    .banner-row{
+        margin-top:50px;
+    }
+    .banner-h1{
+        font-size:30px;
+    }
+    .banner-p{
+        font-size:14px;
+    }
+    .mygif{
+        height:100%;
+        width:100%;
+        position: relative;
+        bottom:20px;
+    }
+    #why{
+        margin-top:40px;
+    }
+    .why-h1{
+        display: none;
+    }
+    .icon-box{
+        margin-top:40px;
+    }
+    .row-2{
+        margin-top:0px;
+    }
+    .shop-gif{
+        height:100%;
+        width:100%;
+        position: relative;
+        bottom:0px;
+    }
+    .shop-png{
+        height:100%;
+        width:100%;
+    }
+    .close-h1{
+        font-size:30px;
+    }
+    #safety{
+        margin-bottom:0px;
+    }
+    .shop-png{
+        margin-top:50px;
+    }
+    #trading{
+        margin-top:50px;
+    }
+    .trade-btn{
+        margin-left:0px;
+    }
+    .partner-btn{
+        padding:15px 70px;
+    }
+    .find-row{
+        margin-top:30px;
+    }
+    .footer-h4{
+        margin-top:30px;
+    }
+    .register-btn{
+        margin-top:20px;
+    }
+    .navbar-collapse{
+        background-color: black;
+        text-align: center;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    .card-img{
+        height:100%;
+       border-radius: 10px;
+        width:100%;
+      }
+      .card-row{
+          margin-left:0px;
+          margin-right:0px;
+          position:relative;
+          left:0%;
+      }
+      #cards{
+        background-color: #464646;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+
+      #banner{
+          margin-bottom:20px;
+      }
+      
+      .card-1{
+          margin-top:20px;
+      }
+
+      /* earn page  */
+      .blockchain-h1{
+          font-size:20px;
+      }
+      .blockchain{
+          padding:10px;
+      }
+      .quote-h1{
+          font-size:20px;
+      }
+      .block-row{
+          margin-left:3px;
+          margin-right:3px;
+      }
+      .earn-h1{
+          font-size:30px;
+      }
+      .contact-img{
+          display: none;
+      }
+      nav{
+          text-align: center;
+      }
+      .nav-link{
+          text-align: center;
+      }
+      .register-btn{
+          position:relative;
+          left:15px;
+      }
+}
